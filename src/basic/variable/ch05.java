@@ -12,6 +12,12 @@ public class ch05 {
     int result = Integer.parseInt(str) + z; // 문자열을 정수로 변환
     System.out.println(result); // 40
 
+    /*
+      Integer.parseInt()는 문자열을 정수로 변환
+      Double.parseDouble()는 문자열을 실수로 변환
+      Boolean.parseBoolean()는 문자열을 boolean으로 변환 등등 더 있음
+    */
+
     // String str2 = 65; // 컴파일 에러 발생
     String str2 = 65 + ""; // 문자열로 변환
 
