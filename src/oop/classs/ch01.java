@@ -47,6 +47,6 @@ class Student {
   public String major(String major) { // return type method
     this.majorName = major;
     System.out.println(studentName + "의 전공은 " + majorName + "입니다.");
-    return majorName;
+    return majorName; // return value
   }
 }
