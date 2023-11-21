@@ -19,7 +19,7 @@ public class ch01 {
       System.out.println(data1 + "+" + data2 + "=" + result);
     } catch(NumberFormatException e) {
       System.out.println("숫자로 변환할 수 없습니다.");
-    } finally {
+    } finally { // 예외 발생 여부와 상관없이 무조건 실행
       System.out.println("다시 실행하세요.");
     }
   }
