@@ -1,4 +1,4 @@
-package oop.collection;
+package oop.collection.list;
 
 import java.util.ArrayList;
 import java.util.List;

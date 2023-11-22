@@ -1,4 +1,4 @@
-package oop.collection;
+package oop.collection.list;
 
 import java.util.List;
 import java.util.Vector;
